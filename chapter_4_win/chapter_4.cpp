@@ -46,5 +46,6 @@ int main()
     t3.join();
     t4.join();
     t5.join();
+    system("pause");
     return 0;
 }

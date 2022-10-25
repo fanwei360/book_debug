@@ -352,7 +352,7 @@ void condition_test()
 void data_breakpoint_test()
 {
 	char str1[11];
-	char str2[5];
+	char str2[50];
 	strcpy(str1, "breakpoint");
 	printf("str1 is %s\n", str1);
 	strcpy(str2, "this is data breakpoint test");
